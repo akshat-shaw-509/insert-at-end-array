@@ -1,0 +1,5 @@
+arr = list(map(int, input("Enter elements of array: ").split()))
+element = int(input("Enter element to insert at end: "))
+arr.append(element)
+print("Array after insertion:")
+print(arr)
